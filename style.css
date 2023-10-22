@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 110px;
+    cursor: pointer;
+}
+
+header li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252a;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    align-items: center;
+    padding: 30px 10%;
+    z-index: 100;
+}
+.links {
+    list-style: none;
+
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+    color: #0088a9;
+}
+
+footer {
+    background-color: rgba(0, 136, 169, 1);
+    color: #f6f6f6;
+    padding: 40px 0;
+    font-size: 14px;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section-title {
+    font-size: 16px;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li i {
+    margin-right: 10px;
+}
+
+.social ul li a {
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.social ul li a i {
+    color: #f6f6f6;
+    margin-right: 10px;
+}
+.contact ul li a i {
+    color: #f6f6f6;
+    margin-right: 10px;
+}
+.footer-bottom {
+    background-color: rgba(0, 136, 169, 1);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+button {
+    margin-top: 12px;
+    color: #fff;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+html {
+    background-color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    
+   
+}
+.Home-main h2{
+    margin-bottom: 30px;
+}
+.nike-main h2{
+    margin-bottom: 30px;
+}
+.adidas-main h2{
+    margin-bottom: 30px;
+}
+.newbalance-main h2{
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container h3 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+.Home-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nike-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nike-logo {
+    background-image: url(images/nike-logo-black-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto 20px;
+}
+
+.adidas-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.adidas-stripe {
+    height: 20px;
+    width: 100%;
+}
+
+.stripe-1 {
+    background-color: black;
+}
+
+.stripe-2 {
+    background-color: white;
+}
+
+.stripe-3 {
+    background-color: black;
+}
+
+.stripe-4 {
+    background-color: white;
+}
+
+.stripe-5 {
+    background-color: black;
+}
+
+
+.newbalance-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newbalance-logo {
+    background-image: url(images/NBLogo-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto 20px;
+}
+
+.AJ4:hover {
+    content: url(images/AJ42.jpg);
+}
+
+.Airmax:hover {
+    content: url(images/AirMax270V2.jpg);
+}
+
+.AF1:hover:hover {
+    content: url(images/AF12.jpg);
+}
+
+.AJ1Mid:hover {
+    content: url(images/AJ1Mid2jpg);
+}
+
+.BoostDz:hover {
+    content: url(images/KickgameDB2.JPG);
+}
+
+.Pusha:hover {
+    content: url(images/Ultra2.JPEG);
+}
+
+.Slides:hover {
+    content: url(images/Slides2.JPEG);
+}
+
+.FR1:hover {
+    content: url(images/FR2.JPEG);
+}
+
+.C947:hover {
+    content: url(images/947Core2.JPEG);
+}
+
+.NB1:hover {
+    content: url(images/NB2V.JPEG);
+}
+
+.NBV3:hover {
+    content: url(images/NBV32.JPEG);
+}
+
+.MX6:hover {
+    content: url(images/MXV2.JPEG);
+}
+
+.AF1B:hover {
+    content: url(images/AF1B2.JPEG);
+}
+
+.AF1BW:hover {
+    content: url(images/AF1BW2.JPEG);
+}
+
+.AF1I:hover {
+    content: url(images/AF1I2.JPEG);
+}
+
+.AMP:hover {
+    content: url(images/AirMaxPulse2.JPEG);
+}
+
+.AMPP:hover {
+    content: url(images/AirMax270P2.JPEG);
+}
+
+.AMB1:hover {
+    content: url(images/AirMax270B2.jpg);
+}
+
+.AMB1:hover {
+    content: url(images/AirMax270B2.jpg);
+}
+
+.AJR:hover {
+    content: url(images/AJ1R2.JPG);
+}
+
+.AJ1C:hover {
+    content: url(images/AJ1C2.JPEG);
+}
+
+.BoostB:hover {
+    content: url(images/Boost350B2.JPEG);
+}
+
+.BoostBW1:hover {
+    content: url(images/BoostBW2.JPEG);
+}
+
+.BoostR:hover {
+    content: url(images/BoostR2.JPEG);
+}
+
+.Ultra:hover {
+    content: url(images/BoostB2.JPEG);
+}
+
+.UltraR:hover {
+    content: url(images/UltraR2.JPEG);
+}
+
+.UltraBo:hover {
+    content: url(images/UltraBo2.JPEG);
+}
+
+.SlidesB:hover {
+    content: url(images/SlidesB2.JPEG);
+}
+
+.FRR:hover {
+    content: url(images/FRR2.JPEG);
+}
+
+.Fresh:hover {
+    content: url(images/Fresh2.JPEG);
+}
+
+.Fresh880:hover {
+    content: url(images/Fresh8802.JPEG);
+}
+
+.FreshB:hover {
+    content: url(images/FreshB2.JPEG);
+}
+
+.V31540:hover {
+    content: url(images/1540V32.JPEG);
+}
+
+.Unlaced:hover {
+    content: url(images/Unlaced2.JPEG);
+}
+
+.UnlacedP:hover {
+    content: url(images/Unlaced2.JPEG);
+}
+
+.W550:hover {
+    content: url(images/550W2.JPEG);
+}
+
+.V5608:hover {
+    content: url(images/650V22.JPEG);
+}
+
+.image-container img {
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 1.0rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: "Montserrat", sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+}
+section h2 {
+    text-align: center;
+}
